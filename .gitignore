@@ -1,0 +1,48 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+
+# Gradle и сборка
+.gradle/
+build/
+
+# Локальные настройки (пути к SDK, NDK)
+local.properties
+
+# Файлы IDE и настройки
+.idea/
+*.iml
+
+# Артефакты сборки
+*.apk
+*.aab
+output-metadata.json
+
+# Для Kotlin
+.kotlin/
+
+# Папки, созданные инструментами сборки
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Файлы с ключами подписи
+*.jks
+*.keystore
+
+# Другие чувствительные данные
+google-services.json
+*.hprof
