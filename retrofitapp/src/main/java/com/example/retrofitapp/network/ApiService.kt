@@ -10,7 +10,7 @@ import retrofit2.http.Path
 interface ApiService {
 
     @GET("todos")
-    suspend fun getTodos(): Call<List<Todo>>
+    fun getTodos(): Call<List<Todo>>
 
     @PUT("todos/{id}")
     fun updateTodo(
