@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TasksFragment"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Мои задачи"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <CheckBox
+            android:textColor="@color/black"
+            android:id="@+id/task1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Изучить фрагменты"
+            android:padding="8dp" />
+
+        <CheckBox
+            android:textColor="@color/black"
+            android:id="@+id/task2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Создать FragmentApp"
+            android:padding="8dp" />
+
+        <CheckBox
+            android:textColor="@color/black"
+            android:id="@+id/task3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Выполнить практическую работу"
+            android:padding="8dp" />
+    </LinearLayout>
+
+</ScrollView>
